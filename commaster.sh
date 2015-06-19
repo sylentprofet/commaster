@@ -2,7 +2,6 @@
 echo
 echo
 git add ./
-echo "Enter commit message: "
-read commit_message
+read -p "Enter commit message: " commit_message
 git commit -m "$commit_message"
 git push origin master
